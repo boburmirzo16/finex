@@ -1,0 +1,27 @@
+@media only  screen and (max-width:768px) {
+    .navbar__nav .fa-bars{
+        display: block;
+    }
+    .navbar__nav a{
+        display: none;
+    }
+    .navbar__nav b{
+        display: none;
+    }
+    .banner, .our__content, .about__content, .what__content, .team__content, .footer__content{
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+    .what__content .item{
+        margin-bottom: 5rem;
+    }
+    .why__content .item img{
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        padding: 30px 30px;
+        border: 5px solid rgb(4, 4, 88);
+        border-radius: 100%;
+    }
+}
